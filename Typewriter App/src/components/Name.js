@@ -34,7 +34,8 @@ export default class Name extends React.Component {
         clearInterval(this.typeWriterInterval);
         this.typeWriterInterval = null;
       }
-    } else {
+    } 
+    else {
       console.log("Component updated false");
       if (this.typeWriterInterval) {
         clearInterval(this.typeWriterInterval);
